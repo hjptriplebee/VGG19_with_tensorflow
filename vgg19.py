@@ -42,7 +42,7 @@ def convLayer(x, kHeight, kWidth, strideX, strideY,
         return tf.nn.relu(tf.reshape(out, featureMap.get_shape().as_list()), name = scope.name)
 
 class VGG19(object):
-    """alexNet model"""
+    """VGG model"""
     def __init__(self, x, keepPro, classNum, skip, modelPath = "vgg19.npy"):
         self.X = x
         self.KEEPPRO = keepPro
