@@ -5,7 +5,7 @@ An easy implement of VGG19 with tensorflow, which has a detailed explanation.
 
 <img src="https://raw.githubusercontent.com/hjptriplebee/VGG19_with_tensorflow/master/demo1.png" width = "200" height = "150" alt="tensorflow" /><img src="https://raw.githubusercontent.com/hjptriplebee/VGG19_with_tensorflow/master/demo2.png" width = "200" height = "150" alt="tensorflow" /><img src="https://raw.githubusercontent.com/hjptriplebee/VGG19_with_tensorflow/master/demo3.png" width = "200" height = "150" alt="tensorflow" />
 
-The code is an implement of VGG19 with tensorflow. The detailed explanation can be found [here](http://blog.csdn.net/accepthjp/article/details/70170217)
+The code is an implement of VGG19 with tensorflow. The detailed explanation can be found [here](http://blog.csdn.net/accepthjp/article/details/70170217) or [here](http://pan.baidu.com/s/1eRLSwwE)(for users in china)
 
 Before running the code, you should confirm that you have :
 
