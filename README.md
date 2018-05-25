@@ -15,11 +15,11 @@ Before running the code, you should confirm that you have :
 
 Then, you should download the model file "vgg19.npy" which can be found [here](https://mega.nz/#!xZ8glS6J!MAnE91ND_WyfZ_8mvkuSa2YcA7q-1ehfSm-Q1fxOvvs) or [here](http://pan.baidu.com/s/1eRLSwwE)(for users in china).
 
-Finally, run the test file with "**python3 testModel.py folder testModel**", you will see some images with the predicted label (press any key to move on to the next image).
+Finally, run the test file with "**python3 testModel.py -m folder -p testModel**", you will see some images with the predicted label (press any key to move on to the next image).
 
 The command also **supports url**. 
 
-For eg. "**python3 testModel.py url http://www.cats.org.uk/uploads/images/featurebox_sidebar_kids/Cat-Behaviour.jpg**"
+For eg. "**python3 testModel.py -m url -p http://www.cats.org.uk/uploads/images/featurebox_sidebar_kids/Cat-Behaviour.jpg**"
 
 You can also use tensorboard to monitor the process. Remeber to see [detailed explanation](http://blog.csdn.net/accepthjp/article/details/70170217).
 

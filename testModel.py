@@ -18,8 +18,8 @@ import numpy as np
 import caffe_classes
 
 parser = argparse.ArgumentParser(description='Classify some images.')
-parser.add_argument('mode', choices=['folder', 'url'], default='folder')
-parser.add_argument('path', help='Specify a path [e.g. testModel]')
+parser.add_argument('-m', '--mode', choices=['folder', 'url'], default='folder')
+parser.add_argument('-p', '--path', help='Specify a path [e.g. testModel]', default='testModel')
 args = parser.parse_args(sys.argv[1:])
 
 if args.mode == 'folder':
